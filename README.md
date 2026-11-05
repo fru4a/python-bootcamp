@@ -1,2 +1,2 @@
 # python-bootcamp
-My daily Python learning journey and practical exercises
+My daily Python learning journey and practical exercises 

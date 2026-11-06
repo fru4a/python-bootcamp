@@ -1,0 +1,2 @@
+-type : to see the type of the input
+- str + int --> error

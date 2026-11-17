@@ -1,0 +1,14 @@
+{
+  "name": "Sam",
+  "age": 26,
+  "skills": [
+    "python",
+    "sql"
+  ],
+  "address": {
+    "city": "Tunis",
+    "zip": 1000
+  },
+  "active": true,
+  "nickname": null
+}

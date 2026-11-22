@@ -19,7 +19,7 @@ with open("people.csv", newline="") as f:
     for row in reader:
         #print(row)
         sum= sum + int(row["age"])
-    print(sum)
+    print(sum) 
 
 
 

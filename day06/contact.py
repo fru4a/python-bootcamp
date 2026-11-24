@@ -24,7 +24,7 @@ def load_contacts(filename) :
 loaded = load_contacts("data.json")
 
 #print(loaded==contacts)
-def is_valid_phone(phone) :  
+def is_valid_phone(phone:int)-> bool :  
         if phone.isdigit() and (
         len(phone) == 8 or
         (len(phone) == 11 and phone.startswith("216")))  :
@@ -33,7 +33,7 @@ def is_valid_phone(phone) :
         else : 
             return False    
 #print(is_valid_phone("58614523"))
-def ask_phone():
+def ask_phone()->str:
     while True:
         phone = input("Phone: ").strip()
 
@@ -45,7 +45,7 @@ def ask_phone():
             print("Invalid phone, try again.")
 
 #print(ask_phone())
-def ask_name():
+def ask_name()-> str:
     while True:
         name = input("name: ").strip()
         if  name.isalpha() and name !=" " :              

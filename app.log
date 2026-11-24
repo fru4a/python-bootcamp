@@ -1,0 +1,18 @@
+2026-11-23 19:47:00,070 - INFO - program started
+2026-11-23 19:47:00,070 - WARNING - something odd
+2026-11-23 19:47:06,309 - INFO - program started
+2026-11-23 19:47:06,309 - WARNING - something odd
+2026-11-23 20:07:57,248 - INFO - program started
+2026-11-23 20:07:57,248 - WARNING - something odd
+2026-11-23 20:08:06,642 - INFO - program started
+2026-11-23 20:08:06,642 - WARNING - something odd
+2026-11-23 20:08:22,131 - INFO - program started
+2026-11-23 20:08:22,131 - WARNING - something odd
+2026-11-23 20:08:28,002 - INFO - program started
+2026-11-23 20:08:28,002 - WARNING - something odd
+ERROR:root:division failed
+Traceback (most recent call last):
+  File "c:\Users\feer\python-bootcamp\day11.py\learn.py", line 6, in divide
+    return a / b
+           ~~^~~
+ZeroDivisionError: division by zero

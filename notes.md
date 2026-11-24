@@ -67,3 +67,9 @@ coclusion ::
 **csv :
 -CSV is text, so every value is read as a string. Convert with int() or float().
 -writeheader writes the column names line, writerows writes one line per dictionary.
+-type hints : def(n:int)-> str (example)
+-exist_ok=True means: "if it's already there, that's fine, do nothing." It makes your script safe to run many times.
+-read_text for small whole files, open for big files, append, binary or when another tool needs the file object.
+-glob = this folder, rglob = this folder and sub-folders
+-print = a note saying "something went wrong".
+-logging.exception = a note saying "something went wrong, and here is exactly where and why", saved in a file.

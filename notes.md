@@ -73,3 +73,7 @@ coclusion ::
 -glob = this folder, rglob = this folder and sub-folders
 -print = a note saying "something went wrong".
 -logging.exception = a note saying "something went wrong, and here is exactly where and why", saved in a file.
+****OOP :
+-A class is a blueprint, an object is one thing made from it.
+-_init_ runs automatically when an object is created, and sets its attributes.
+-self.name = name means "store this value inside this object".
